@@ -252,10 +252,6 @@ table {
   bottom: 0;
 }
 
-.main__navBar__menu img {
-  width: 3%;
-}
-
 .main__navBar__settings {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -267,6 +263,10 @@ table {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.main__navBar__settings-connection img {
+  width: 10%;
 }
 
 .main__navBar__settings-time {

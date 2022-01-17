@@ -214,6 +214,10 @@
   display: flex;
 }
 
+.main__navBar__settings-connection img {
+  width: 10%;
+}
+
 .main__navBar__settings-time {
   font-size: 0.8em;
   display: -webkit-box;

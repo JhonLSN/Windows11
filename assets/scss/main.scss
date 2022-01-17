@@ -152,7 +152,7 @@
 
     &__menu {
       & img {
-        width: 3%;
+        
       }
     }
 
@@ -162,6 +162,10 @@
 
       &-connection {
         display: flex;
+
+        & img {
+          width: 10%;
+        }
       }
 
       &-time {
