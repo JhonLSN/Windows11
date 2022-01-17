@@ -197,25 +197,20 @@
   bottom: 0;
 }
 
-.main__navBar__menu img {
-  width: 3%;
-}
-
 .main__navBar__settings {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   color: #fff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .main__navBar__settings-connection {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.main__navBar__settings-connection img {
-  width: 10%;
 }
 
 .main__navBar__settings-time {
