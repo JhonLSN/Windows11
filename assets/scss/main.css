@@ -16,7 +16,8 @@
           flex-flow: column nowrap;
 }
 
-.main__shortcut-cards {
+.main__shortcut-recycle {
+  position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -34,15 +35,151 @@
   cursor: context-menu;
 }
 
-.main__shortcut-cards:hover {
+.main__shortcut-recycle:hover {
   background-color: #ffffff24;
 }
 
-.main__shortcut-cards img {
+.main__shortcut-recycle img {
   width: 50%;
 }
 
-.main__shortcut-cards p {
+.main__shortcut-recycle p {
+  color: #fff;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+.main__shortcut-chrome {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 6.5%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+  padding: 5px 0px;
+  top: 92px;
+  border-radius: 5px;
+  cursor: context-menu;
+}
+
+.main__shortcut-chrome:hover {
+  background-color: #ffffff24;
+}
+
+.main__shortcut-chrome img {
+  width: 50%;
+}
+
+.main__shortcut-chrome p {
+  color: #fff;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+.main__shortcut-edge {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 6.5%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+  padding: 5px 0px;
+  border-radius: 5px;
+  cursor: context-menu;
+  top: 197px;
+}
+
+.main__shortcut-edge:hover {
+  background-color: #ffffff24;
+}
+
+.main__shortcut-edge img {
+  width: 50%;
+}
+
+.main__shortcut-edge p {
+  color: #fff;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+.main__shortcut-folder {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 6.5%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+  padding: 5px 0px;
+  border-radius: 5px;
+  cursor: context-menu;
+  top: 296px;
+}
+
+.main__shortcut-folder:hover {
+  background-color: #ffffff24;
+}
+
+.main__shortcut-folder img {
+  width: 50%;
+}
+
+.main__shortcut-folder p {
+  color: #fff;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+.main__shortcut-vscode {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 6.5%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+  padding: 5px 0px;
+  border-radius: 5px;
+  cursor: context-menu;
+  top: 353.56px;
+}
+
+.main__shortcut-vscode:hover {
+  background-color: #ffffff24;
+}
+
+.main__shortcut-vscode img {
+  width: 50%;
+}
+
+.main__shortcut-vscode p {
   color: #fff;
   text-align: center;
   font-size: 0.8em;

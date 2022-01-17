@@ -9,7 +9,8 @@
     display: flex;
     flex-flow: column nowrap;
 
-    &-cards {
+    &-recycle {
+      position: absolute;
       display: flex;
       width: 6.5%;
       flex-direction: column;
@@ -18,6 +19,114 @@
       padding: 5px 0px;
       border-radius: 5px;
       cursor: context-menu;
+
+      &:hover {
+        background-color: #ffffff24;
+      }
+
+      & img {
+        width: 50%;
+      }
+
+      & p {
+        color: #fff;
+        text-align: center;
+        font-size: 0.8em;
+      }
+    }
+
+    &-chrome {
+      position: absolute;
+      display: flex;
+      width: 6.5%;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 30px;
+      padding: 5px 0px;
+      top: 92px;
+      border-radius: 5px;
+      cursor: context-menu;
+
+      &:hover {
+        background-color: #ffffff24;
+      }
+
+      & img {
+        width: 50%;
+      }
+
+      & p {
+        color: #fff;
+        text-align: center;
+        font-size: 0.8em;
+      }
+    }
+
+    &-edge {
+      position: absolute;
+      display: flex;
+      width: 6.5%;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 30px;
+      padding: 5px 0px;
+      border-radius: 5px;
+      cursor: context-menu;
+      top:  197px; 
+
+      &:hover {
+        background-color: #ffffff24;
+      }
+
+      & img {
+        width: 50%;
+      }
+
+      & p {
+        color: #fff;
+        text-align: center;
+        font-size: 0.8em;
+      }
+    }
+
+    &-folder {
+      position: absolute;
+      display: flex;
+      width: 6.5%;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 30px;
+      padding: 5px 0px;
+      border-radius: 5px;
+      cursor: context-menu;
+      top: 296px; 
+
+      &:hover {
+        background-color: #ffffff24;
+      }
+
+      & img {
+        width: 50%;
+      }
+
+      & p {
+        color: #fff;
+        text-align: center;
+        font-size: 0.8em;
+      }
+    }
+
+    &-vscode {
+      position: absolute;
+      display: flex;
+      width: 6.5%;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 30px;
+      padding: 5px 0px;
+      border-radius: 5px;
+      cursor: context-menu;
+      top: 386px;
 
       &:hover {
         background-color: #ffffff24;
