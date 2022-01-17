@@ -213,9 +213,34 @@
           align-items: center;
 }
 
+.main__navBar__settings.uparrow-icon {
+  padding: 5px 2px;
+  border-radius: 5px;
+  cursor: context-menu;
+  -webkit-transition: all ease .2s;
+  transition: all ease .2s;
+}
+
+.main__navBar__settings.uparrow-icon:hover {
+  background: #ffffff24;
+  -webkit-transition: all ease .2s;
+  transition: all ease .2s;
+}
+
 .main__navBar__settings-language {
   font-size: 0.8em;
   text-align: center;
+  padding: 5px 4px;
+  border-radius: 5px;
+  cursor: context-menu;
+  -webkit-transition: all ease .2s;
+  transition: all ease .2s;
+}
+
+.main__navBar__settings-language:hover {
+  background: #ffffff24;
+  -webkit-transition: all ease .2s;
+  transition: all ease .2s;
 }
 
 .main__navBar__settings-connection {
@@ -255,5 +280,16 @@
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  padding: 5px 2px;
+  border-radius: 5px;
+  cursor: context-menu;
+  -webkit-transition: all ease .2s;
+  transition: all ease .2s;
+}
+
+.main__navBar__settings-time:hover {
+  background: #ffffff24;
+  -webkit-transition: all ease .2s;
+  transition: all ease .2s;
 }
 /*# sourceMappingURL=main.css.map */
