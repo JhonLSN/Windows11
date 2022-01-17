@@ -58,7 +58,7 @@ table {
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: 'Alata', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .main__shortcut {
@@ -71,7 +71,34 @@ table {
           flex-flow: column nowrap;
 }
 
+.main__shortcut-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 6.5%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+  padding: 5px 0px;
+  border-radius: 5px;
+}
+
+.main__shortcut-cards:hover {
+  background-color: #ffffff24;
+}
+
 .main__shortcut-cards img {
-  width: 4.8%;
+  width: 50%;
+}
+
+.main__shortcut-cards p {
+  color: #fff;
+  text-align: center;
+  font-size: 0.8em;
 }
 /*# sourceMappingURL=bundle.css.map */
