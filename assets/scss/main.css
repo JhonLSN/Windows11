@@ -31,6 +31,7 @@
   margin-bottom: 30px;
   padding: 5px 0px;
   border-radius: 5px;
+  cursor: context-menu;
 }
 
 .main__shortcut-cards:hover {
