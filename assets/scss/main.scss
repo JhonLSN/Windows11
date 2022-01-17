@@ -72,7 +72,7 @@
       padding: 5px 0px;
       border-radius: 5px;
       cursor: context-menu;
-      top:  197px; 
+      top: 197px;
 
       &:hover {
         background-color: #ffffff24;
@@ -99,7 +99,7 @@
       padding: 5px 0px;
       border-radius: 5px;
       cursor: context-menu;
-      top: 296px; 
+      top: 296px;
 
       &:hover {
         background-color: #ffffff24;
@@ -144,10 +144,32 @@
     }
   }
 
-  &__navBar{
+  &__navBar {
     position: fixed;
     display: flex;
     flex-flow: row nowrap;
     bottom: 0;
+
+    &__menu {
+      & img {
+        width: 3%;
+      }
+    }
+
+    &__settings {
+      display: flex;
+      color: #fff;
+
+      &-connection {
+        display: flex;
+      }
+
+      &-time {
+        font-size: 0.8em;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+      }
+    }
   }
 }
