@@ -58,5 +58,20 @@ table {
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: 'Alata', sans-serif;
+}
+
+.main__shortcut {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+}
+
+.main__shortcut-cards img {
+  width: 4.8%;
 }
 /*# sourceMappingURL=bundle.css.map */
