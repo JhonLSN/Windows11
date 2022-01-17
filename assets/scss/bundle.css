@@ -239,4 +239,15 @@ table {
   text-align: center;
   font-size: 0.8em;
 }
+
+.main__navBar {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+}
 /*# sourceMappingURL=bundle.css.map */
