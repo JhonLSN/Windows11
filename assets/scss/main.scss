@@ -321,6 +321,22 @@
           }
         }
       }
+
+      &-apps {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+
+        & .app-box {
+          padding: 32px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+
+          & img
+        }
+      }
     }
   }
 }
