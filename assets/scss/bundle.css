@@ -395,7 +395,7 @@ table {
   position: relative;
 }
 
-.main__menu img {
+.main__menu__search img {
   position: absolute;
   width: 3%;
   -webkit-transform: rotate(80deg);
@@ -404,13 +404,14 @@ table {
   left: 8px;
 }
 
-.main__menu input {
+.main__menu__search input {
   padding: 10px 35px;
   width: 100%;
   border: 1px solid #292d32;
+  border-bottom: 2px solid #4cc2ff;
+  border-radius: 5px;
   background: #222122;
   outline: none;
-  border-radius: 5px;
   color: #fff;
   font-family: "Open Sans", sans-serif;
 }
