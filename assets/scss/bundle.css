@@ -376,4 +376,14 @@ table {
   -webkit-transition: all ease 0.2s;
   transition: all ease 0.2s;
 }
+
+.main__menu {
+  width: 600px;
+  height: 600px;
+  bottom: 60px;
+  left: 28%;
+  position: absolute;
+  background: linear-gradient(44deg, #1c222d, #0f2158, #1c222d);
+  border-radius: 10px;
+}
 /*# sourceMappingURL=bundle.css.map */
