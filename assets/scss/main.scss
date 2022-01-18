@@ -259,5 +259,12 @@
     border-radius: 10px;
     border: 1px solid #292d32;
     box-shadow: 0px 0px 10px 0px #06152c;
+
+    & img {
+      position: absolute;
+      width: 3%;
+      transform: rotate(80deg);
+      color: #fff;
+    }
   }
 }

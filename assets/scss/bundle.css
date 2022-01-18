@@ -389,4 +389,12 @@ table {
   -webkit-box-shadow: 0px 0px 10px 0px #06152c;
           box-shadow: 0px 0px 10px 0px #06152c;
 }
+
+.main__menu img {
+  position: absolute;
+  width: 3%;
+  -webkit-transform: rotate(80deg);
+          transform: rotate(80deg);
+  color: #fff;
+}
 /*# sourceMappingURL=bundle.css.map */
