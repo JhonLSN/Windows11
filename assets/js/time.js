@@ -7,7 +7,7 @@ let getMinutes = date.getMinutes()
 let getDay = date.getDate()
 let getMonth = date.getMonth()+1
 
-// Formatação do tempo
+// Time Formatting
 formatTime()
 
 hours.innerHTML = `${getHours}:${getMinutes}`
