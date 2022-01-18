@@ -54,10 +54,14 @@ table {
 }
 
 .main {
-  background-image: url(../img/bg.jpeg);
+  position: relative;
   height: 100vh;
+  width: 100%;
+  background-image: url(../img/bg.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
+  overflow-x: clip;
+  overflow-y: clip;
   font-family: "Open Sans", sans-serif;
 }
 
