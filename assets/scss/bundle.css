@@ -415,4 +415,20 @@ table {
   color: #fff;
   font-family: "Open Sans", sans-serif;
 }
+
+.main__menu__search input::-webkit-input-placeholder {
+  color: #c6c6c6;
+}
+
+.main__menu__search input:-ms-input-placeholder {
+  color: #c6c6c6;
+}
+
+.main__menu__search input::-ms-input-placeholder {
+  color: #c6c6c6;
+}
+
+.main__menu__search input::placeholder {
+  color: #c6c6c6;
+}
 /*# sourceMappingURL=bundle.css.map */
