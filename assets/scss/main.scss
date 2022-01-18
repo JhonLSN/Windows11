@@ -328,13 +328,20 @@
         flex-wrap: wrap;
 
         & .app-box {
-          padding: 32px;
+          padding: 30px;
           display: flex;
           flex-direction: column;
           align-items: center;
           justify-content: center;
 
-          & img
+          & img {
+            margin-bottom: 5px;
+          }
+
+          & p {
+            color: #fff;
+            font-size: .8em;
+          }
         }
       }
     }
