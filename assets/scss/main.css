@@ -376,4 +376,51 @@
 .main__menu__search input::placeholder {
   color: #c6c6c6;
 }
+
+.main__menu__software {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main__menu__software-filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 30px;
+  padding: 0px 25px;
+}
+
+.main__menu__software-filter h1 {
+  color: #fff;
+  font-size: 0.9em;
+}
+
+.main__menu__software-filter a {
+  color: #fff;
+  font-size: 0.8em;
+  text-decoration: none;
+  cursor: context-menu;
+  padding: 5px 10px;
+  background-color: #ffffff24;
+  border-radius: 5px;
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.main__menu__software-filter a:hover {
+  background-color: #ffffff40;
+  -webkit-transition: all ease 0.2s;
+  transition: all ease 0.2s;
+}
 /*# sourceMappingURL=main.css.map */
