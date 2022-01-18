@@ -250,21 +250,38 @@
   }
 
   &__menu {
+    position: absolute;
+    padding: 25px;
     width: 600px;
     height: 600px;
     bottom: 60px;
     left: 28%;
-    position: absolute;
     background: linear-gradient(44deg, #1c222d, #0f2158, #1c222d);
     border-radius: 10px;
     border: 1px solid #292d32;
     box-shadow: 0px 0px 10px 0px #06152c;
 
-    & img {
-      position: absolute;
-      width: 3%;
-      transform: rotate(80deg);
-      color: #fff;
+    &__search {
+      position: relative;
+
+      & img {
+        position: absolute;
+        width: 3%;
+        transform: rotate(80deg);
+        bottom: 12px;
+        left: 8px;
+      }
+
+      & input {
+        padding: 10px 35px;
+        width: 100%;
+        border: 1px solid #292d32;
+        background: #222122;
+        outline: none;
+        border-radius: 5px;
+        color: #fff;
+        font-family: "Open Sans", sans-serif;
+      }
     }
   }
 }
