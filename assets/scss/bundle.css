@@ -453,6 +453,7 @@ table {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-top: 30px;
+  margin-bottom: 20px;
   padding: 0px 25px;
 }
 
@@ -483,6 +484,9 @@ table {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -491,7 +495,6 @@ table {
 }
 
 .main__menu__software-apps .app-box {
-  padding: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -505,6 +508,18 @@ table {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding: 15px;
+  width: 16%;
+  border-radius: 5px;
+  cursor: context-menu;
+  -webkit-transition: all ease 0.2s;
+  transition: all ease 0.2s;
+}
+
+.main__menu__software-apps .app-box:hover {
+  background: #ffffff24;
+  -webkit-transition: all ease 0.2s;
+  transition: all ease 0.2s;
 }
 
 .main__menu__software-apps .app-box img {
@@ -513,6 +528,6 @@ table {
 
 .main__menu__software-apps .app-box p {
   color: #fff;
-  font-size: .8em;
+  font-size: 0.8em;
 }
 /*# sourceMappingURL=bundle.css.map */
