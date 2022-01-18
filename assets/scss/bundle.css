@@ -385,5 +385,8 @@ table {
   position: absolute;
   background: linear-gradient(44deg, #1c222d, #0f2158, #1c222d);
   border-radius: 10px;
+  border: 1px solid #292d32;
+  -webkit-box-shadow: 0px 0px 10px 0px #06152c;
+          box-shadow: 0px 0px 10px 0px #06152c;
 }
 /*# sourceMappingURL=bundle.css.map */
