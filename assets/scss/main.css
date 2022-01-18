@@ -190,6 +190,12 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-flow: row nowrap;
@@ -198,9 +204,25 @@
   width: 100%;
   padding: 5px 20px;
   background: linear-gradient(44deg, #1c222d, #0f2158, #1c222d);
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+}
+
+.main__navBar__menu {
+  margin-right: 48vh;
+}
+
+.main__navBar__menu img {
+  margin-right: 5px;
+  padding: 4px 4px;
+  border-radius: 5px;
+  cursor: context-menu;
+  -webkit-transition: all ease 0.2s;
+  transition: all ease 0.2s;
+}
+
+.main__navBar__menu img:hover {
+  background: #ffffff24;
+  -webkit-transition: all ease 0.2s;
+  transition: all ease 0.2s;
 }
 
 .main__navBar__settings {
@@ -213,18 +235,17 @@
           align-items: center;
 }
 
-.main__navBar__settings.uparrow-icon {
-  padding: 5px 2px;
+.main__navBar__settings .uparrow-icon {
+  padding: 8px 2px;
   border-radius: 5px;
-  cursor: context-menu;
-  -webkit-transition: all ease .2s;
-  transition: all ease .2s;
+  -webkit-transition: all ease 0.2s;
+  transition: all ease 0.2s;
 }
 
-.main__navBar__settings.uparrow-icon:hover {
+.main__navBar__settings .uparrow-icon:hover {
   background: #ffffff24;
-  -webkit-transition: all ease .2s;
-  transition: all ease .2s;
+  -webkit-transition: all ease 0.2s;
+  transition: all ease 0.2s;
 }
 
 .main__navBar__settings-language {
@@ -233,14 +254,14 @@
   padding: 5px 4px;
   border-radius: 5px;
   cursor: context-menu;
-  -webkit-transition: all ease .2s;
-  transition: all ease .2s;
+  -webkit-transition: all ease 0.2s;
+  transition: all ease 0.2s;
 }
 
 .main__navBar__settings-language:hover {
   background: #ffffff24;
-  -webkit-transition: all ease .2s;
-  transition: all ease .2s;
+  -webkit-transition: all ease 0.2s;
+  transition: all ease 0.2s;
 }
 
 .main__navBar__settings-connection {
@@ -249,14 +270,14 @@
   display: flex;
   padding: 8px 0px;
   border-radius: 5px;
-  -webkit-transition: all ease .2s;
-  transition: all ease .2s;
+  -webkit-transition: all ease 0.2s;
+  transition: all ease 0.2s;
 }
 
 .main__navBar__settings-connection:hover {
   background: #ffffff24;
-  -webkit-transition: all ease .2s;
-  transition: all ease .2s;
+  -webkit-transition: all ease 0.2s;
+  transition: all ease 0.2s;
 }
 
 .main__navBar__settings-connection img:nth-of-type(1) {
@@ -283,13 +304,13 @@
   padding: 5px 2px;
   border-radius: 5px;
   cursor: context-menu;
-  -webkit-transition: all ease .2s;
-  transition: all ease .2s;
+  -webkit-transition: all ease 0.2s;
+  transition: all ease 0.2s;
 }
 
 .main__navBar__settings-time:hover {
   background: #ffffff24;
-  -webkit-transition: all ease .2s;
-  transition: all ease .2s;
+  -webkit-transition: all ease 0.2s;
+  transition: all ease 0.2s;
 }
 /*# sourceMappingURL=main.css.map */
