@@ -369,7 +369,7 @@
         margin-bottom: 20px;
         padding: 0px 25px;
 
-        & h1 {
+        & h2 {
           color: #fff;
           font-size: 0.9em;
         }
@@ -387,6 +387,48 @@
           &:hover {
             background-color: #ffffff40;
             transition: all ease 0.2s;
+          }
+        }
+      }
+
+      & .app-recommendation {
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 25px;
+
+        &-box {
+          display: flex;
+          padding: 10px 15px;
+          width: 47%;
+          align-items: center;
+          border-radius: 5px;
+          transition: all ease 0.2s;
+
+          &:hover {
+            background-color: #ffffff40;
+            transition: all ease 0.2s;
+          }
+
+          & img {
+            margin-right: 8px;
+          }
+
+          & .information {
+            display: flex;
+            flex-direction: column;
+            cursor: context-menu;
+            align-items: flex-start;
+            color: #fff;
+
+            & h3 {
+              font-size: 0.9em;
+              margin-bottom: 4px;
+            }
+
+            & p {
+              font-size: 0.8em;
+              color: #ffffff8c;
+            }
           }
         }
       }

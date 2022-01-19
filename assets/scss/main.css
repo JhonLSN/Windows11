@@ -501,7 +501,7 @@
   padding: 0px 25px;
 }
 
-.main__menu__recommendation-filter h1 {
+.main__menu__recommendation-filter h2 {
   color: #fff;
   font-size: 0.9em;
 }
@@ -522,5 +522,64 @@
   background-color: #ffffff40;
   -webkit-transition: all ease 0.2s;
   transition: all ease 0.2s;
+}
+
+.main__menu__recommendation .app-recommendation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0px 25px;
+}
+
+.main__menu__recommendation .app-recommendation-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 15px;
+  width: 47%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+  -webkit-transition: all ease 0.2s;
+  transition: all ease 0.2s;
+}
+
+.main__menu__recommendation .app-recommendation-box:hover {
+  background-color: #ffffff40;
+  -webkit-transition: all ease 0.2s;
+  transition: all ease 0.2s;
+}
+
+.main__menu__recommendation .app-recommendation-box img {
+  margin-right: 8px;
+}
+
+.main__menu__recommendation .app-recommendation-box .information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  cursor: context-menu;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  color: #fff;
+}
+
+.main__menu__recommendation .app-recommendation-box .information h3 {
+  font-size: 0.9em;
+  margin-bottom: 4px;
+}
+
+.main__menu__recommendation .app-recommendation-box .information p {
+  font-size: 0.8em;
+  color: #ffffff8c;
 }
 /*# sourceMappingURL=main.css.map */
