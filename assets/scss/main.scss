@@ -433,5 +433,51 @@
         }
       }
     }
+
+    &__user {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      display: flex;
+      align-items: center;
+      background: #22212285;
+      border-top: 1px solid #292d32;
+      border-radius: 0px 0px 10px 10px;
+      width: 100%;
+      padding: 10px 60px;
+      justify-content: space-between;
+
+      &-administrator {
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+        padding: 5px 10px;
+        cursor: context-menu;
+        transition: all ease 0.2s;
+
+        &:hover {
+          background: #ffffff24;
+          transition: all ease 0.2s;
+        }
+
+        h4 {
+          margin-left: 10px;
+          color: #fff;
+          font-size: 0.8em;
+        }
+      }
+
+      & .button-off {     
+        border-radius: 5px;     
+        padding: 5px;      
+        cursor: context-menu;
+        transition: all ease 0.2s;
+
+        &:hover {
+          background: #ffffff24;
+          transition: all ease 0.2s;
+        }
+      }
+    }
   }
 }
