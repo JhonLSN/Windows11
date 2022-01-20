@@ -9,6 +9,16 @@
   overflow-y: clip;
   font-family: "Open Sans", sans-serif;
 
+  // Toggle Menu
+  &.active {
+
+    .main__menu {
+      height: 600px;
+      visibility: visible;
+      overflow: auto;
+    }
+  }
+
   &__shortcut {
     display: flex;
     flex-flow: column nowrap;
@@ -251,15 +261,19 @@
 
   &__menu {
     position: absolute;
+    display: block;
+    visibility: hidden;
+    overflow-y: hidden;
     padding: 25px;
     width: 600px;
-    height: 600px;
+    height: 0px;
     bottom: 60px;
     left: 28%;
     background: linear-gradient(44deg, #1c222d, #0f2158, #1c222d);
     border-radius: 10px;
     border: 1px solid #292d32;
     box-shadow: 0px 0px 10px 0px #06152c;
+    transition: all ease 0.6s;
 
     &__search {
       position: relative;
@@ -467,9 +481,9 @@
         }
       }
 
-      & .button-off {     
-        border-radius: 5px;     
-        padding: 5px;      
+      & .button-off {
+        border-radius: 5px;
+        padding: 5px;
         cursor: context-menu;
         transition: all ease 0.2s;
 
