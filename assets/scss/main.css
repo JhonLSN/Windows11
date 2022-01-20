@@ -13,7 +13,7 @@
 .main.active .main__menu {
   height: 600px;
   visibility: visible;
-  overflow: auto;
+  overflow-y: auto;
 }
 
 .main__shortcut {
@@ -329,22 +329,18 @@
 }
 
 .main__menu {
-  position: absolute;
   display: block;
+  position: absolute;
+  width: 100%;
+  top: 56px;
+  right: 0px;
+  background: #bcd4e0;
+  z-index: 1000;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  height: 0px;
   visibility: hidden;
   overflow-y: hidden;
-  padding: 25px;
-  width: 600px;
-  height: 0px;
-  bottom: 60px;
-  left: 28%;
-  background: linear-gradient(44deg, #1c222d, #0f2158, #1c222d);
-  border-radius: 10px;
-  border: 1px solid #292d32;
-  -webkit-box-shadow: 0px 0px 10px 0px #06152c;
-          box-shadow: 0px 0px 10px 0px #06152c;
-  -webkit-transition: all ease 0.6s;
-  transition: all ease 0.6s;
 }
 
 .main__menu__search {
