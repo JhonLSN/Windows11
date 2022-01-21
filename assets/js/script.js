@@ -55,7 +55,19 @@ btnOff.addEventListener('click', () => {
   if (mainMenu.classList.contains('activeAdm')) { mainMenu.classList.remove('activeAdm') }
 })
 
+// Show Occult Apps
+const BtnUpArrow = document.querySelector('.uparrow-icon')
 
+BtnUpArrow.addEventListener('click', () => {
+  if (main.classList.contains('activeUp')) {
+    main.classList.remove('activeUp')
+  } else {
+    main.classList.add('activeUp')
+  }
+
+  if (mainMenu.classList.contains('activeAdm')) { mainMenu.classList.remove('activeAdm') }
+  if (mainMenu.classList.contains('activeOff')) { mainMenu.classList.remove('activeOff') }
+})
 
 
 
