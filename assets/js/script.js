@@ -1,7 +1,7 @@
 // Zoom Effect Icons NavBar
 const icon = document.querySelectorAll('.main__navBar__menu img')
 
-icon.forEach((element) =>{
+icon.forEach((element) => {
   element.addEventListener('mousedown', () => {
     element.style.transform = 'scale(0.8)'
   })
@@ -16,8 +16,13 @@ const btnMenu = document.querySelector('.start-btn')
 const main = document.querySelector('.main')
 
 btnMenu.addEventListener('click', () => {
-  main.classList.toggle('active')
+  if (main.classList.contains('active')) {
+    main.classList.remove('active')
+  } else {
+    main.classList.add('active')
+  }
 })
 
 
-  
+
+
