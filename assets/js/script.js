@@ -23,7 +23,7 @@ btnMenu.addEventListener('click', () => {
     main.classList.add('active')
   }
 
-  
+  // Close Menu Administrator and Turn Off in Show Menu
   if (mainMenu.classList.contains('activeAdm')) { mainMenu.classList.remove('activeAdm') }
   if (mainMenu.classList.contains('activeOff')) { mainMenu.classList.remove('activeOff') }
 })
@@ -38,6 +38,8 @@ btnAdm.addEventListener('click', () => {
   } else {
     mainMenu.classList.add('activeAdm')
   }
+
+  if (mainMenu.classList.contains('activeOff')) { mainMenu.classList.remove('activeOff') }
 })
 
 // Show Menu Turn Off
@@ -49,6 +51,8 @@ btnOff.addEventListener('click', () => {
   } else {
     mainMenu.classList.add('activeOff')
   }
+
+  if (mainMenu.classList.contains('activeAdm')) { mainMenu.classList.remove('activeAdm') }
 })
 
 
