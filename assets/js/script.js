@@ -26,6 +26,7 @@ btnMenu.addEventListener('click', () => {
   // Close Menu Administrator and Turn Off in Show Menu
   if (mainMenu.classList.contains('activeAdm')) { mainMenu.classList.remove('activeAdm') }
   if (mainMenu.classList.contains('activeOff')) { mainMenu.classList.remove('activeOff') }
+  if (main.classList.contains('activeUp')) { main.classList.remove('activeUp') }
 })
 
 // Show Menu Administrator
@@ -40,6 +41,7 @@ btnAdm.addEventListener('click', () => {
   }
 
   if (mainMenu.classList.contains('activeOff')) { mainMenu.classList.remove('activeOff') }
+  if (main.classList.contains('activeUp')) { main.classList.remove('activeUp') }
 })
 
 // Show Menu Turn Off
@@ -53,6 +55,7 @@ btnOff.addEventListener('click', () => {
   }
 
   if (mainMenu.classList.contains('activeAdm')) { mainMenu.classList.remove('activeAdm') }
+  if (main.classList.contains('activeUp')) { main.classList.remove('activeUp') }
 })
 
 // Show Occult Apps
@@ -67,6 +70,7 @@ BtnUpArrow.addEventListener('click', () => {
 
   if (mainMenu.classList.contains('activeAdm')) { mainMenu.classList.remove('activeAdm') }
   if (mainMenu.classList.contains('activeOff')) { mainMenu.classList.remove('activeOff') }
+  if (main.classList.contains('active')) { main.classList.remove('active') }
 })
 
 
