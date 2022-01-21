@@ -346,6 +346,18 @@
   transition: all ease 0.3s;
 }
 
+.main__menu.activeAdm .administrator-option {
+  visibility: visible;
+  height: 132px;
+  padding: 10px;
+}
+
+.main__menu.activeOff .off-option {
+  visibility: visible;
+  height: 134px;
+  padding: 10px;
+}
+
 .main__menu__search {
   position: relative;
 }
@@ -655,13 +667,18 @@
 
 .main__menu .administrator-option {
   position: absolute;
+  display: block;
+  visibility: hidden;
+  overflow-y: hidden;
+  height: 0px;
   bottom: 70px;
-  padding: 11px;
   border-radius: 10px;
   background: #1c2134;
   border: 1px solid #292d32;
   -webkit-box-shadow: 0px 0px 10px 0px #06152c;
           box-shadow: 0px 0px 10px 0px #06152c;
+  -webkit-transition: all cubic-bezier(0.4, 0, 1, 1) 0.3s;
+  transition: all cubic-bezier(0.4, 0, 1, 1) 0.3s;
 }
 
 .main__menu .administrator-option .admin-chooses {
@@ -694,14 +711,19 @@
 
 .main__menu .off-option {
   position: absolute;
+  display: block;
+  visibility: hidden;
+  overflow-y: hidden;
+  height: 0px;
   bottom: 70px;
   right: 25px;
-  padding: 11px;
   border-radius: 10px;
   background: #1c2134;
   border: 1px solid #292d32;
   -webkit-box-shadow: 0px 0px 10px 0px #06152c;
           box-shadow: 0px 0px 10px 0px #06152c;
+  -webkit-transition: all cubic-bezier(0.4, 0, 1, 1) 0.3s;
+  transition: all cubic-bezier(0.4, 0, 1, 1) 0.3s;
 }
 
 .main__menu .off-option .off-chooses {

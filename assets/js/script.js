@@ -22,17 +22,32 @@ btnMenu.addEventListener('click', () => {
   } else {
     main.classList.add('active')
   }
+
+  
+  if (mainMenu.classList.contains('activeAdm')) { mainMenu.classList.remove('activeAdm') }
+  if (mainMenu.classList.contains('activeOff')) { mainMenu.classList.remove('activeOff') }
 })
 
 // Show Menu Administrator
-const btnAdm = document.querySelector('.main__menu__user-administrator')
 const mainMenu = document.querySelector('.main__menu')
+const btnAdm = document.querySelector('.main__menu__user-administrator')
 
 btnAdm.addEventListener('click', () => {
-  if (mainMenu.classList.contains('active')) {
-    mainMenu.classList.remove('active')
+  if (mainMenu.classList.contains('activeAdm')) {
+    mainMenu.classList.remove('activeAdm')
   } else {
-    mainMenu.classList.add('active')
+    mainMenu.classList.add('activeAdm')
+  }
+})
+
+// Show Menu Turn Off
+const btnOff = document.querySelector('.button-off')
+
+btnOff.addEventListener('click', () => {
+  if (mainMenu.classList.contains('activeOff')) {
+    mainMenu.classList.remove('activeOff')
+  } else {
+    mainMenu.classList.add('activeOff')
   }
 })
 
