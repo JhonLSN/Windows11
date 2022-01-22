@@ -844,4 +844,28 @@ table {
   font-size: 0.9em;
   margin-left: 10px;
 }
+
+@media screen and (min-width: 1800px) {
+  .main__shortcut-recycle img {
+    width: 40%;
+  }
+  .main__shortcut-chrome img {
+    width: 40%;
+  }
+  .main__shortcut-edge img {
+    width: 40%;
+  }
+  .main__shortcut-folder img {
+    width: 40%;
+  }
+  .main__shortcut-vscode img {
+    width: 40%;
+  }
+  .main__navBar__menu {
+    margin-right: 31%;
+  }
+  .main__menu {
+    left: 35%;
+  }
+}
 /*# sourceMappingURL=bundle.css.map */

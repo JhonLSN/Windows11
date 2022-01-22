@@ -273,7 +273,7 @@
     overflow-y: hidden;
     height: 0px;
     bottom: 60px;
-    right: 150px; 
+    right: 150px;
     border-radius: 10px;
     background: #1c2134;
     border: 1px solid #292d32;
@@ -613,6 +613,52 @@
           margin-left: 10px;
         }
       }
+    }
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .main {
+    &__shortcut {
+      &-recycle {
+        & img {
+          width: 40%;
+        }
+      }
+
+      &-chrome {
+        & img {
+          width: 40%;
+        }
+      }
+
+      &-edge {
+        & img {
+          width: 40%;
+        }
+      }
+
+      &-folder {
+        & img {
+          width: 40%;
+        }
+      }
+
+      &-vscode {
+        & img {
+          width: 40%;
+        }
+      }
+    }
+
+    &__navBar {
+      &__menu {
+        margin-right: 31%;
+      }
+    }
+
+    &__menu {
+      left: 35%;
     }
   }
 }
