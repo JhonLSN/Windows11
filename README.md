@@ -32,7 +32,7 @@ Este projeto foi feito com as seguintes tecnologias:
 - JavaScript 
 
 <p align="center">
-  <a href="https://jhonlsn-kshop.netlify.app/" target="_blank">
+  <a href="https://window-clone.netlify.app/" target="_blank">
     <img src="https://res.cloudinary.com/lukemorales/image/upload/v1599785319/readme_logos/demo_on_netlify_umjmch.png" alt="Demo on Netlify" title="Demo on Netlify">
   </a>
 <p/>
